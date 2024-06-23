@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		276737412C27518B00D809CC /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 276737402C27518B00D809CC /* GoogleGenerativeAI */; };
+		276737452C2752A500D809CC /* Gemunoapi.plist in Resources */ = {isa = PBXBuildFile; fileRef = 276737442C2752A500D809CC /* Gemunoapi.plist */; };
+		276737472C2752E100D809CC /* Apikey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276737462C2752E100D809CC /* Apikey.swift */; };
+		27AF41C42C26B64900A3B5A0 /* HoudiniApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF41C32C26B64900A3B5A0 /* HoudiniApp.swift */; };
+		27AF41C62C26B64900A3B5A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF41C52C26B64900A3B5A0 /* ContentView.swift */; };
+		27AF41C82C26B64A00A3B5A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27AF41C72C26B64A00A3B5A0 /* Assets.xcassets */; };
+		27AF41CB2C26B64A00A3B5A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27AF41CA2C26B64A00A3B5A0 /* Preview Assets.xcassets */; };
+		27AF41D52C26B64A00A3B5A0 /* HoudiniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF41D42C26B64A00A3B5A0 /* HoudiniTests.swift */; };
+		27AF41DF2C26B64A00A3B5A0 /* HoudiniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF41DE2C26B64A00A3B5A0 /* HoudiniUITests.swift */; };
+		27AF41E12C26B64A00A3B5A0 /* HoudiniUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF41E02C26B64A00A3B5A0 /* HoudiniUITestsLaunchTests.swift */; };
+		27AF41F12C271CC400A3B5A0 /* MessengerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF41F02C271CC400A3B5A0 /* MessengerView.swift */; };
+		27AF41F32C271DFC00A3B5A0 /* MemesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF41F22C271DFC00A3B5A0 /* MemesView.swift */; };
+		27AF41F52C271E3400A3B5A0 /* LessonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF41F42C271E3400A3B5A0 /* LessonsView.swift */; };
+		27AF41F72C271E5400A3B5A0 /* ReferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF41F62C271E5400A3B5A0 /* ReferencesView.swift */; };
+		27AF41F92C271E6B00A3B5A0 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF41F82C271E6B00A3B5A0 /* PortfolioView.swift */; };
+		27AF41FB2C27289100A3B5A0 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF41FA2C27289100A3B5A0 /* ScheduleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27AF41D12C26B64A00A3B5A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27AF41B82C26B64900A3B5A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27AF41BF2C26B64900A3B5A0;
+			remoteInfo = Houdini;
+		};
+		27AF41DB2C26B64A00A3B5A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27AF41B82C26B64900A3B5A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27AF41BF2C26B64900A3B5A0;
+			remoteInfo = Houdini;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		276737442C2752A500D809CC /* Gemunoapi.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Gemunoapi.plist; sourceTree = "<group>"; };
+		276737462C2752E100D809CC /* Apikey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apikey.swift; sourceTree = "<group>"; };
+		27AF41C02C26B64900A3B5A0 /* Houdini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Houdini.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27AF41C32C26B64900A3B5A0 /* HoudiniApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoudiniApp.swift; sourceTree = "<group>"; };
+		27AF41C52C26B64900A3B5A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		27AF41C72C26B64A00A3B5A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27AF41CA2C26B64A00A3B5A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		27AF41D02C26B64A00A3B5A0 /* HoudiniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoudiniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27AF41D42C26B64A00A3B5A0 /* HoudiniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoudiniTests.swift; sourceTree = "<group>"; };
+		27AF41DA2C26B64A00A3B5A0 /* HoudiniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoudiniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27AF41DE2C26B64A00A3B5A0 /* HoudiniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoudiniUITests.swift; sourceTree = "<group>"; };
+		27AF41E02C26B64A00A3B5A0 /* HoudiniUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoudiniUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		27AF41F02C271CC400A3B5A0 /* MessengerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerView.swift; sourceTree = "<group>"; };
+		27AF41F22C271DFC00A3B5A0 /* MemesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemesView.swift; sourceTree = "<group>"; };
+		27AF41F42C271E3400A3B5A0 /* LessonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsView.swift; sourceTree = "<group>"; };
+		27AF41F62C271E5400A3B5A0 /* ReferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferencesView.swift; sourceTree = "<group>"; };
+		27AF41F82C271E6B00A3B5A0 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
+		27AF41FA2C27289100A3B5A0 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27AF41BD2C26B64900A3B5A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276737412C27518B00D809CC /* GoogleGenerativeAI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27AF41CD2C26B64A00A3B5A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27AF41D72C26B64A00A3B5A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27AF41B72C26B64900A3B5A0 = {
+			isa = PBXGroup;
+			children = (
+				27AF41C22C26B64900A3B5A0 /* Houdini */,
+				27AF41D32C26B64A00A3B5A0 /* HoudiniTests */,
+				27AF41DD2C26B64A00A3B5A0 /* HoudiniUITests */,
+				27AF41C12C26B64900A3B5A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27AF41C12C26B64900A3B5A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27AF41C02C26B64900A3B5A0 /* Houdini.app */,
+				27AF41D02C26B64A00A3B5A0 /* HoudiniTests.xctest */,
+				27AF41DA2C26B64A00A3B5A0 /* HoudiniUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27AF41C22C26B64900A3B5A0 /* Houdini */ = {
+			isa = PBXGroup;
+			children = (
+				27AF41C32C26B64900A3B5A0 /* HoudiniApp.swift */,
+				27AF41C52C26B64900A3B5A0 /* ContentView.swift */,
+				27AF41FA2C27289100A3B5A0 /* ScheduleView.swift */,
+				27AF41F82C271E6B00A3B5A0 /* PortfolioView.swift */,
+				27AF41F62C271E5400A3B5A0 /* ReferencesView.swift */,
+				27AF41F42C271E3400A3B5A0 /* LessonsView.swift */,
+				27AF41F22C271DFC00A3B5A0 /* MemesView.swift */,
+				27AF41F02C271CC400A3B5A0 /* MessengerView.swift */,
+				27AF41C72C26B64A00A3B5A0 /* Assets.xcassets */,
+				27AF41C92C26B64A00A3B5A0 /* Preview Content */,
+				276737442C2752A500D809CC /* Gemunoapi.plist */,
+				276737462C2752E100D809CC /* Apikey.swift */,
+			);
+			path = Houdini;
+			sourceTree = "<group>";
+		};
+		27AF41C92C26B64A00A3B5A0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				27AF41CA2C26B64A00A3B5A0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		27AF41D32C26B64A00A3B5A0 /* HoudiniTests */ = {
+			isa = PBXGroup;
+			children = (
+				27AF41D42C26B64A00A3B5A0 /* HoudiniTests.swift */,
+			);
+			path = HoudiniTests;
+			sourceTree = "<group>";
+		};
+		27AF41DD2C26B64A00A3B5A0 /* HoudiniUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27AF41DE2C26B64A00A3B5A0 /* HoudiniUITests.swift */,
+				27AF41E02C26B64A00A3B5A0 /* HoudiniUITestsLaunchTests.swift */,
+			);
+			path = HoudiniUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27AF41BF2C26B64900A3B5A0 /* Houdini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27AF41E42C26B64A00A3B5A0 /* Build configuration list for PBXNativeTarget "Houdini" */;
+			buildPhases = (
+				27AF41BC2C26B64900A3B5A0 /* Sources */,
+				27AF41BD2C26B64900A3B5A0 /* Frameworks */,
+				27AF41BE2C26B64900A3B5A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Houdini;
+			packageProductDependencies = (
+				276737402C27518B00D809CC /* GoogleGenerativeAI */,
+			);
+			productName = Houdini;
+			productReference = 27AF41C02C26B64900A3B5A0 /* Houdini.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27AF41CF2C26B64A00A3B5A0 /* HoudiniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27AF41E72C26B64A00A3B5A0 /* Build configuration list for PBXNativeTarget "HoudiniTests" */;
+			buildPhases = (
+				27AF41CC2C26B64A00A3B5A0 /* Sources */,
+				27AF41CD2C26B64A00A3B5A0 /* Frameworks */,
+				27AF41CE2C26B64A00A3B5A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27AF41D22C26B64A00A3B5A0 /* PBXTargetDependency */,
+			);
+			name = HoudiniTests;
+			productName = HoudiniTests;
+			productReference = 27AF41D02C26B64A00A3B5A0 /* HoudiniTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27AF41D92C26B64A00A3B5A0 /* HoudiniUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27AF41EA2C26B64A00A3B5A0 /* Build configuration list for PBXNativeTarget "HoudiniUITests" */;
+			buildPhases = (
+				27AF41D62C26B64A00A3B5A0 /* Sources */,
+				27AF41D72C26B64A00A3B5A0 /* Frameworks */,
+				27AF41D82C26B64A00A3B5A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27AF41DC2C26B64A00A3B5A0 /* PBXTargetDependency */,
+			);
+			name = HoudiniUITests;
+			productName = HoudiniUITests;
+			productReference = 27AF41DA2C26B64A00A3B5A0 /* HoudiniUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27AF41B82C26B64900A3B5A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					27AF41BF2C26B64900A3B5A0 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					27AF41CF2C26B64A00A3B5A0 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 27AF41BF2C26B64900A3B5A0;
+					};
+					27AF41D92C26B64A00A3B5A0 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 27AF41BF2C26B64900A3B5A0;
+					};
+				};
+			};
+			buildConfigurationList = 27AF41BB2C26B64900A3B5A0 /* Build configuration list for PBXProject "Houdini" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27AF41B72C26B64900A3B5A0;
+			packageReferences = (
+				2767373F2C27518B00D809CC /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+			);
+			productRefGroup = 27AF41C12C26B64900A3B5A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27AF41BF2C26B64900A3B5A0 /* Houdini */,
+				27AF41CF2C26B64A00A3B5A0 /* HoudiniTests */,
+				27AF41D92C26B64A00A3B5A0 /* HoudiniUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27AF41BE2C26B64900A3B5A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276737452C2752A500D809CC /* Gemunoapi.plist in Resources */,
+				27AF41CB2C26B64A00A3B5A0 /* Preview Assets.xcassets in Resources */,
+				27AF41C82C26B64A00A3B5A0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27AF41CE2C26B64A00A3B5A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27AF41D82C26B64A00A3B5A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27AF41BC2C26B64900A3B5A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AF41F32C271DFC00A3B5A0 /* MemesView.swift in Sources */,
+				27AF41F12C271CC400A3B5A0 /* MessengerView.swift in Sources */,
+				276737472C2752E100D809CC /* Apikey.swift in Sources */,
+				27AF41F92C271E6B00A3B5A0 /* PortfolioView.swift in Sources */,
+				27AF41F72C271E5400A3B5A0 /* ReferencesView.swift in Sources */,
+				27AF41F52C271E3400A3B5A0 /* LessonsView.swift in Sources */,
+				27AF41FB2C27289100A3B5A0 /* ScheduleView.swift in Sources */,
+				27AF41C62C26B64900A3B5A0 /* ContentView.swift in Sources */,
+				27AF41C42C26B64900A3B5A0 /* HoudiniApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27AF41CC2C26B64A00A3B5A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AF41D52C26B64A00A3B5A0 /* HoudiniTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27AF41D62C26B64A00A3B5A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AF41DF2C26B64A00A3B5A0 /* HoudiniUITests.swift in Sources */,
+				27AF41E12C26B64A00A3B5A0 /* HoudiniUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27AF41D22C26B64A00A3B5A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27AF41BF2C26B64900A3B5A0 /* Houdini */;
+			targetProxy = 27AF41D12C26B64A00A3B5A0 /* PBXContainerItemProxy */;
+		};
+		27AF41DC2C26B64A00A3B5A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27AF41BF2C26B64900A3B5A0 /* Houdini */;
+			targetProxy = 27AF41DB2C26B64A00A3B5A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27AF41E22C26B64A00A3B5A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27AF41E32C26B64A00A3B5A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27AF41E52C26B64A00A3B5A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Houdini/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = szhanbyr.Houdini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27AF41E62C26B64A00A3B5A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Houdini/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = szhanbyr.Houdini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		27AF41E82C26B64A00A3B5A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = szhanbyr.HoudiniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Houdini.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Houdini";
+			};
+			name = Debug;
+		};
+		27AF41E92C26B64A00A3B5A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = szhanbyr.HoudiniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Houdini.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Houdini";
+			};
+			name = Release;
+		};
+		27AF41EB2C26B64A00A3B5A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = szhanbyr.HoudiniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Houdini;
+			};
+			name = Debug;
+		};
+		27AF41EC2C26B64A00A3B5A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = szhanbyr.HoudiniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Houdini;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27AF41BB2C26B64900A3B5A0 /* Build configuration list for PBXProject "Houdini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27AF41E22C26B64A00A3B5A0 /* Debug */,
+				27AF41E32C26B64A00A3B5A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27AF41E42C26B64A00A3B5A0 /* Build configuration list for PBXNativeTarget "Houdini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27AF41E52C26B64A00A3B5A0 /* Debug */,
+				27AF41E62C26B64A00A3B5A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27AF41E72C26B64A00A3B5A0 /* Build configuration list for PBXNativeTarget "HoudiniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27AF41E82C26B64A00A3B5A0 /* Debug */,
+				27AF41E92C26B64A00A3B5A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27AF41EA2C26B64A00A3B5A0 /* Build configuration list for PBXNativeTarget "HoudiniUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27AF41EB2C26B64A00A3B5A0 /* Debug */,
+				27AF41EC2C26B64A00A3B5A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2767373F2C27518B00D809CC /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		276737402C27518B00D809CC /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2767373F2C27518B00D809CC /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 27AF41B82C26B64900A3B5A0 /* Project object */;
+}
